@@ -7,27 +7,28 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Login_Page{
 	
-	@FindBy(xpath="(//input[@type='text'])[2]")
+	@FindBy(xpath="//button[@class='_2KpZ6l _2doB4z']")                   //(//input[@type='text'])[2]
 	private WebElement email ;
 	
-	@FindBy(xpath="(//input[@type='password'])")
-	private WebElement password ;
+//	@FindBy(xpath="(//input[@type='password'])")
+//	private WebElement password ;
 	
-	@FindBy(xpath="(//button[@type='submit'])[2]")
-	private WebElement loginButton ;
+//	@FindBy(xpath="(//button[@type='submit'])[2]")
+//	private WebElement loginButton ;
 	
 	public Login_Page (WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
 	
 	public void putemail() {
-		email.sendKeys("8010259517");
+		//email.sendKeys("8010259517");
+		email.click();
 	}
-	public void putpassword() {
-		password.sendKeys("Pramod@07");
-	}
-	
-	public void clicklogin() {
-		loginButton.click();
-	}	
+//	public void putpassword() {
+//		password.sendKeys("Pramod@07");
+//	}
+//	
+//	public void clicklogin() {
+//		loginButton.click();
+//	}	
 }

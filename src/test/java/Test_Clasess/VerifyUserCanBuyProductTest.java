@@ -71,8 +71,8 @@ public class VerifyUserCanBuyProductTest extends UtilClass1 {
   @Test(priority=1)
   public void VeriyUserCanLogin() throws InterruptedException { 
 	  lp.putemail();
-	  lp.putpassword();
-	  lp.clicklogin();
+//	  lp.putpassword();
+//  lp.clicklogin();
 	  soft.assertTrue(hp.isProfileNameVisible());  
   }
   

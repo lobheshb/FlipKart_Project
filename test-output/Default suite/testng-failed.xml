@@ -5,16 +5,11 @@
     <classes>
       <class name="Test_Clasess.VerifyUserCanBuyProductTest">
         <methods>
-          <include name="VerifyUserCanSelectProductAndMoveTOProdutDetailsPage"/>
-          <include name="VerifyCardCalculations"/>
-          <include name="VeriyUserCanLogin"/>
           <include name="beforeMethod"/>
           <include name="VerifyUserCanAddProductToCart"/>
-          <include name="beforeClass"/>
           <include name="VerifyUserCanSelectDeliveryAddress"/>
+          <include name="beforeClass"/>
           <include name="VerifyUserSelectPeymentOption"/>
-          <include name="VerifUserPlacedQrderSuccessfully"/>
-          <include name="verifyUserCanSearchProduct"/>
           <include name="afterMethod"/>
           <include name="afterClass"/>
         </methods>
